@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+}
+.fa-chevron-circle-down {
+  margin-bottom: 20px;
+}
+
+.fa-chevron-circle-up {
+  margin-bottom: 20px;
+}
+
+.trans {
+  transform: translate(0, -50%);
+}
+
+.level-item {
+  background-color: dodgerBlue;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  z-index: 1;
+}
+
+.showRole {
+  padding-left: 25px;
+}
+
+.prev {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.toggle {
+  cursor: pointer;
+}
+
+.toolkit {
+  text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    padding-right: 25px;
+
+}

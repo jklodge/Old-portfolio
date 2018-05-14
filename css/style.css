@@ -1,6 +1,8 @@
 body {
   background-image: url(../images/pyramid.png);
   background-repeat: repeat;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
 }
 
 .container {
@@ -24,6 +26,7 @@ body {
   padding: 20px;
   display: flex;
   z-index: 1;
+  padding-bottom: 50px;
 }
 
 .showRole {
@@ -53,4 +56,46 @@ li {
     display: inline;
     padding-right: 25px;
 
+}
+.first-page {
+    font-size: 50px;
+    text-align: right;
+}
+.latest {
+  text-align: right;
+}
+
+#section02 {
+  background-image: url(../images/pyramid.png);
+}
+#section03 {
+  background-image: url(../images/pyramid.png);
+}
+#section04 {
+  background-image: url(../images/pyramid.png);
+}
+
+.navbar-brand {
+  background-color: #202020;
+}
+.navbar-item {
+  color: white;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+}
+nav.navbar {
+  background-color: #202020;
+  position: fixed;
+    top: 0;
+    width: 100%;
+}
+#about {
+  background-color: black;
+  border: 1px solid white;
+  padding: 130px;
+  color: white;
+  padding-top: 200px;
 }

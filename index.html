@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script src="js/app.js" charset="utf-8"></script>
@@ -13,10 +14,11 @@
 <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="#about">Home</a>
+      <a class="navbar-item" href="#home">Home</a>
       <a class="navbar-item" href="#about">About</a>
-      <a class="navbar-item" href="#about">Projects</a>
-      <a class="navbar-item" href="#about">Contact</a>
+      <a class="navbar-item" href="#projects">Projects</a>
+      <a class="navbar-item" href="#skills">Skills</a>
+      <a class="navbar-item" href="#projects">Contact</a>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -24,25 +26,25 @@
       </a>
     </div>
   </nav>
-  <section id="section01" class="hero is-fullheight scroll">
+  <section id="home" class="hero is-fullheight scroll">
   <div class="hero-body">
-    <div class="container columns has-text-centered">
+    <div class="container columns">
       <div class="column is-four-fifths">
-      <h1 class="title">
-        ex Product Girl <br>
-        Full Stack developer
+      <h1 class="title first-page">
+        Jess Lodge<br>
+        Full Stack Developer
       </h1>
       <h2 id="pro" class="subtitle has-text-centered"></h2>
     </div>
     <div class="column is-one-fifth">
       <div class="tile is-vertical toolkit">
-      <h2 class="title is-5">Latest Project:</h2>
-      <a href="https://crimeno.herokuapp.com/" target="_blank">Crimeno<a>
+      <h2 class="title is-5 latest">Latest Project:</h2>
+      <a href="www.crimeno.com" target="_blank">Crimeno<a>
     </div>
     </div>
     </div>
   </div>
-  <a class="has-text-centered trans" href="#section02"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
+  <a class="has-text-centered trans" href="#about"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
   <div class="level-item">
 
     <div class="roles">
@@ -52,27 +54,20 @@
     <div class="showRole" style="display:none">Contract role building html pages for Selfridges</div>
   </div>
 </section>
-<section id="section02" class="hero is-danger is-fullheight scroll">
-<div class="hero-body">
-  <div class="container">
-    <img class="logo" src="http://fillmurray.com/200/300" />
-
+<section id="about" class="hero is-fullheight scroll">
+  <div class="about">
     <h1 class="title">
       About Me
     </h1>
     <h2 class="subtitle">
-      Lorem Khaled Ipsum is a major key to success. Fan luv. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Lion! We don’t see them, we will never see them. The key is to drink coconut, fresh coconut, trust me. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Lion! The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion!
-
-
+      <p>I love bringing ideas to life, I started my career in marketing, and then moved on to Product roles building the vision for products in the finance and media industries.<br><br>I undertook the Web Development Immersive course at General Assembly, through which I gained the developer skills to build the products that I used to manage mainly focusing on JavaScript libraries & frameworks, front-end and back-end.</p>
     </h2>
-
   </div>
-</div>
-<a class="has-text-centered trans" href="#section03"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
+<a class="has-text-centered trans" href="#projects"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
+
 </section>
-<section id="section03" class="hero is-warning is-fullheight scroll">
-<div class="hero-body">
-  <div class="container">
+<section id="projects" class="hero is-warning is-fullheight scroll">
+  <div class="projects">
     <h1 class="title">
       Skills
     </h1>
@@ -81,21 +76,24 @@
     </h2>
   </div>
 </div>
-<a class="has-text-centered trans" href="#section04"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
+<a class="has-text-centered trans" href="#skills"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
 </section>
-<section id="section04" class="hero is-success is-fullheight scroll">
+<section id="skills" class="hero is-success is-fullheight scroll">
 <div class="hero-body">
   <div class="container">
     <h1 class="title">
       Skills
     </h1>
     <h2 class="subtitle">
-      Projects
+      L A N G U A G E S
+    </h2>
+    <h2 class="subtitle">
+      L A N G U A G E S
     </h2>
   </div>
 </div>
-<a class="has-text-centered trans" href="#section01"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
-<div class="level-item">
+<a class="has-text-centered trans" href="#home"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
+<div class="level-item" id="contact">
 
   <div class="roles">
     <h3 class="title is-4 prev">Contact</h3>

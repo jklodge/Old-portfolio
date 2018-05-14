@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script src="js/app.js" charset="utf-8"></script>
@@ -27,81 +28,136 @@
     </div>
   </nav>
   <section id="home" class="hero is-fullheight scroll">
-  <div class="hero-body">
-    <div class="container columns">
-      <div class="column is-four-fifths">
-      <h1 class="title first-page">
-        Jess Lodge<br>
-        Full Stack Developer
-      </h1>
-      <h2 id="pro" class="subtitle has-text-centered"></h2>
-    </div>
-    <div class="column is-one-fifth">
-      <div class="tile is-vertical toolkit">
-      <h2 class="title is-5 latest">Latest Project:</h2>
-      <a href="www.crimeno.com" target="_blank">Crimeno<a>
-    </div>
-    </div>
-    </div>
-  </div>
-  <a class="has-text-centered trans" href="#about"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
-  <div class="level-item">
+    <div class="hero-body">
+      <div class="container columns">
+        <div class="column is-four-fifths">
+          <h1 class="title first-page">
+            Jess Lodge<br>
+            Full Stack Developer
+          </h1>
+          <h2 id="pro" class="subtitle has-text-centered"></h2>
+        </div>
+        <div class="column is-one-fifth">
+          <div class="tile is-vertical toolkit">
+            <h2 class="title is-5 latest">Latest Project:</h2>
+            <a href="http://www.crimeno.com" target="_blank">Crimeno<a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="has-text-centered trans" href="#about"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
+      <div class="level-item">
 
-    <div class="roles">
-      <h3 class="title is-4 prev">Previous roles</h3>
-      <h3 class="toggle title is-6">Selfridges - Front End Developer - April 18</h3>
-  </div>
-    <div class="showRole" style="display:none">Contract role building html pages for Selfridges</div>
-  </div>
-</section>
-<section id="about" class="hero is-fullheight scroll">
-  <div class="about">
-    <h1 class="title">
-      About Me
-    </h1>
-    <h2 class="subtitle">
-      <p>I love bringing ideas to life, I started my career in marketing, and then moved on to Product roles building the vision for products in the finance and media industries.<br><br>I undertook the Web Development Immersive course at General Assembly, through which I gained the developer skills to build the products that I used to manage mainly focusing on JavaScript libraries & frameworks, front-end and back-end.</p>
-    </h2>
-  </div>
-<a class="has-text-centered trans" href="#projects"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
+        <div class="roles">
+          <h3 class="title is-4 prev">Developer experience</h3>
+          <h3 class="toggle title is-6">Current: Selfridges - Front End Developer - April 18</h3>
+        </div>
+        <div class="showRole" style="display:none">Contract role building html pages for Selfridges</div>
+      </div>
+    </section>
+    <section id="about" class="hero is-fullheight scroll">
+      <div class="about">
+        <h1 class="title aboutTitle">About Me</h1>
+        <p class="subtitle aboutPara">I love bringing ideas to life, I started my career in marketing, and then moved on to Product roles building the vision for products in the finance and media industries.<br><br>I undertook the Web Development Immersive course at General Assembly, through which I gained the developer skills to build the products that I used to manage mainly focusing on JavaScript libraries & frameworks, front-end and back-end.</p>
+      </div>
+      <a class="has-text-centered trans" href="#projects"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
 
-</section>
-<section id="projects" class="hero is-warning is-fullheight scroll">
-  <div class="projects">
-    <h1 class="title">
-      Skills
-    </h1>
-    <h2 class="subtitle">
-      Full Stack Devolper
-    </h2>
-  </div>
-</div>
-<a class="has-text-centered trans" href="#skills"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
-</section>
-<section id="skills" class="hero is-success is-fullheight scroll">
-<div class="hero-body">
-  <div class="container">
-    <h1 class="title">
-      Skills
-    </h1>
-    <h2 class="subtitle">
-      L A N G U A G E S
-    </h2>
-    <h2 class="subtitle">
-      L A N G U A G E S
-    </h2>
-  </div>
-</div>
-<a class="has-text-centered trans" href="#home"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
-<div class="level-item" id="contact">
+    </section>
+    <section id="projects" class="hero is-warning is-fullheight scroll">
+      <h1 class="title">Projects</h1>
+      <h2 class="subtitle">Full Stack Devolper  </h2>
 
-  <div class="roles">
-    <h3 class="title is-4 prev">Contact</h3>
-    <h3 class="toggle title is-6">GitHub</h3>
-</div>
-  <div class="showRole" style="display:none">Contract role building html pages for Selfridges</div>
-</div>
-</section>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <a href="http://www.crimeno.com" target="_blank"><p class="title">Crimeno</p></a>
+            <p class="content">Crimeno was developed to help tackle the increasing recurring crimes in particular areas. A RESTful MERN stack app, centred around the Police and Google Maps API. Users can pinpoint a location where a crime was committed using google maps markers. Other users will then be made aware of these crimes if they search a route within that area of the crime. There is also a heatmap derived from the Police API that highlights the crime in areas.</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <a href="https://yearbook-awards.herokuapp.com/" target="_blank"><p class="title">GA YearBook</p></a>
+            <p class="content">A RESTful MERN stack app created to provide our entire cohort with a graduating yearbook, including a submission section, a voting system and a results page. I owned the results page including a function to calculate the votes.</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <a href="https://poober.herokuapp.com/" target="_blank"><p class="title">Poober</p></a>
+            <p class="content">In an agile  group  project, I created a RESTful MEAN stack app. Poober helps you find your nearest toilet in a fellow user’s humble abode. With a group of three, we created an app for users and owners. Owners were able to upload their toilets to the database. Users are able to then search for toilets in their area and request to use. I owned the Facebook Oauth journey, implementing the filestack API, creating the user profile and implementing filtering.</p>
+          </article>
+        </div>
 
-</body>
-</html>
+      </div>
+
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <a href="https://github.com/jklodge/WDI_LDN_PROJECT1" target="_blank"><p class="title">Spinner</p></a>
+            <div class="content">
+              <p>Inspired by friends and myself always asking whether something looks “OK”. I created a voting system fashion Express app using EJS with a Mongo database. Users were able to create and edit their profile, follow and unfollow users. Upload a photo using the Filestack API and comment on photos.</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <a href="https://is-this-in.herokuapp.com/" target="_blank"><p class="title">Is this in?</p></a>
+              <p>Inspired by friends and myself always asking whether something looks “OK”. I created a voting system fashion Express app using EJS with a Mongo database. Users were able to create and edit their profile, follow and unfollow users. Upload a photo using the Filestack API and comment on photos.</p>    </article>
+            </div>
+          </div>
+          <a class="has-text-centered trans" href="#skills"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
+        </section>
+        <section id="skills" class="hero is-success is-fullheight scroll">
+          <div class="hero-body">
+
+            <h1 class="title">My Toolkit</h1>
+            <div class="columns">
+              <div class="column-is-one-quarter">
+                <h2 class="subtitle">L A N G U A G E S</h2>
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-jquery-plain"></i>
+              </div>
+
+              <div class="column-is-one-quarter">
+                <h2 class="subtitle">Front-End</h2>
+                <i class="devicon-react-original-wordmark"></i>
+                <i class="devicon-angularjs-plain"></i>
+                <i class="devicon-bootstrap-plain"></i>
+                <i class="devicon-sass-original"></i>
+                <i class="devicon-mocha-plain"></i>
+
+              </div>
+              <div class="column-is-one-quarter">
+                <h2 class="subtitle">Back-End</h2>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-mongodb-plain"></i>
+                <i class="devicon-mocha-plain"></i>
+
+              </div>
+              <div class="column-is-one-quarter">
+                <h2 class="subtitle">Tools</h2>
+                <i class="devicon-trello-plain"></i>
+                <i class="devicon-github-plain"></i>
+                <i class="devicon-git-plain"></i>
+                <i class="devicon-gulp-plain"></i>
+                <i class="devicon-heroku-original"></i>
+              </div>
+            </div>
+
+            </div>
+
+
+          <a class="has-text-centered trans" href="#home"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
+          <div class="level-item" id="contact">
+
+            <div class="roles">
+              <h3 class="title is-4 prev">Contact</h3>
+              <h3 class="toggle title is-6">GitHub</h3>
+            </div>
+            <div class="showRole" style="display:none">Contract role building html pages for Selfridges</div>
+          </div>
+        </section>
+
+      </body>
+      </html>

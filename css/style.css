@@ -65,21 +65,44 @@ li {
   text-align: right;
 }
 
-#section02 {
+#projects {
   background-image: url(../images/pyramid.png);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 60px;
+
 }
-#section03 {
-  background-image: url(../images/pyramid.png);
+#skills {
+  background-color: black;
 }
+
 #section04 {
   background-image: url(../images/pyramid.png);
 }
+#about {
+  background: black;
 
+  border: 1px solid white;
+  padding: 130px;
+  color: white !important;
+  padding-top: 200px;
+}
+.aboutPara {
+  color: white;
+}
+.aboutTitle {
+  color: white;
+}
 .navbar-brand {
   background-color: #202020;
 }
 .navbar-item {
   color: white;
+  font-size: 20px;
 }
 
 h1 {
@@ -92,10 +115,10 @@ nav.navbar {
     top: 0;
     width: 100%;
 }
-#about {
-  background-color: black;
-  border: 1px solid white;
-  padding: 130px;
-  color: white;
-  padding-top: 200px;
+i {
+  font-size: 50px;
+}
+
+.column-is-one-quarter {
+  margin: 50px
 }

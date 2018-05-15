@@ -1,9 +1,15 @@
 body {
   background-image: url(../images/pyramid.png);
-  background-repeat: repeat;
+  background-size: contain;
   font-family: 'Nunito', sans-serif;
   font-weight: 100;
 }
+
+/* body:hover {
+  background-image: url(../images/pyramid.png);
+
+
+} */
 
 .container {
   display: flex;
@@ -21,12 +27,19 @@ body {
 }
 
 .level-item {
+  display: flex;
+  flex-direction: column;
   background-color: dodgerBlue;
   height: 150px;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   z-index: 1;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+.box {
+  background-image: url("http://fillmurray.com/200/300");
+  color: white;
 }
 
 .showRole {
@@ -40,6 +53,7 @@ body {
 
 .toggle {
   cursor: pointer;
+  padding: 10px;
 }
 
 .toolkit {
@@ -91,6 +105,11 @@ li {
   color: white !important;
   padding-top: 200px;
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
 .aboutPara {
   color: white;
 }
@@ -121,4 +140,15 @@ i {
 
 .column-is-one-quarter {
   margin: 50px
+}
+.bottom {
+  float: left;
+}
+
+.roles {
+  display: flex;
+  flex-direction: row !important;
+}
+.hero-body {
+  justify-content: center;
 }

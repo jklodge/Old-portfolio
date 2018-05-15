@@ -8,7 +8,7 @@ function init() {
   //   $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 200, 'linear');
   // });
 
-  $('.toggle').click(function(){
+  $('.toggle').click(function(e){
     $('.showRole').slideToggle('slow');
   });
 

@@ -10,7 +10,10 @@ body {
 
 
 } */
+.home {
+  text-align: right;
 
+}
 .container {
   display: flex;
 }

@@ -1,7 +1,7 @@
 body {
-  background-image: url(../images/pyramid.png);
+  /* background-image: url(../images/pyramid.png); */
   background-size: contain;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif !important;
   font-weight: 100;
 }
 
@@ -10,13 +10,66 @@ body {
 
 
 } */
-.home {
-  text-align: right;
 
+.experience {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  border-radius: 45px;
+  padding: 15px;
+  margin-top: 30%;
+text-align: center;
+  z-index: 5;
 }
-.container {
-  display: flex;
+
+.left-half {
+   background-color: black;
+   position: absolute;
+   left: 0px;
+   height: 100%;
+   width: 50%;
 }
+.right-half {
+   background-color: white;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+   width: 50%;
+}
+
+.right-box {
+
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 75%;
+}
+
+.navbar-item {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+/* .active, .navbar-item:hover {
+    background-color: #666;
+    color: white;
+} */
+#home {
+  text-align: right;
+  background-color: lightslategrey;
+  margin: auto;
+}
+.home {
+    display: flex;
+    margin: auto;
+    transform: translate(0%, 250%)
+}
+
 .fa-chevron-circle-down {
   margin-bottom: 20px;
 }
@@ -89,26 +142,96 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
-  margin-top: 60px;
+}
+.projects {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
 
+.titlePro {
+  padding-top: 50px;
 }
 #skills {
   background-color: black;
 }
-
+/*
 #section04 {
   background-image: url(../images/pyramid.png);
-}
+} */
 #about {
   background: black;
-
+  padding: 30px;
   border: 1px solid white;
-  padding: 130px;
   color: white !important;
-  padding-top: 200px;
+  justify-content: center;
+
 }
 
+.trans {
+  margin-top: 20%;
+}
+
+.about {
+  justify-content: center;
+
+}
+.crimeno {
+  background-image: url(../images/crimeno.png);
+  background-position: center;
+  background-size: cover;
+}
+.yearbook {
+  background-image: url(../images/gays.png);
+  background-position: center;
+  background-size: cover;
+  animation-play-state: paused;
+
+}
+
+.yearbook:hover {
+transform: scale(1.5);
+animation-play-state: running;
+
+}
+.poober {
+  background-image: url(../images/poober.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.poober:hover {
+  transform: scale(1.5);
+}
+.isthisin {
+  background-image: url(../images/isthisin.png);
+  background-position: center;
+  background-size: cover;
+}
+.isthisin:hover {
+  transform: scale(1.5);
+}
+.crimeno {
+  background-image: url(../images/crimeno.png);
+  background-position: center;
+  background-size: cover;
+}
+.crimeno:hover {
+  transform: scale(1.5);
+  background-color: blue;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.spinner {
+  background-image: url(../images/spinner.png);
+  background-position: center;
+  background-size: cover;
+}
+.spinner:hover {
+  transform: scale(1.5);
+}
 #contact {
   display: flex;
   flex-direction: column;
@@ -118,6 +241,7 @@ li {
 }
 .aboutTitle {
   color: white;
+  padding-top: 27px;
 }
 .navbar-brand {
   background-color: #202020;
@@ -140,7 +264,17 @@ nav.navbar {
 i {
   font-size: 50px;
 }
+.wrap .dev {
+  visibility: ;
+  font-size: 30px;
+  display: inline;
 
+}
+.wrap:hover .dev {
+  visibility: visible;
+  font-size: 30px;
+
+}
 .column-is-one-quarter {
   margin: 50px
 }
@@ -154,4 +288,8 @@ i {
 }
 .hero-body {
   justify-content: center;
+  height: 100%;
+  margin: auto;
+  display: inline !important;
+  text-align: center;
 }

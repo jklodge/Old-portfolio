@@ -1,16 +1,17 @@
 body {
-
   background-size: contain;
-  font-family: 'Nunito', sans-serif !important;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 100;
   height: 100%;
 }
 
 .experience {
     display: flex;
+    font-family: 'Rajdhani', sans-serif;
+
     flex-direction: column !important;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .left-half {
@@ -29,7 +30,6 @@ body {
 }
 
 .right-box {
-
     margin-top: -100px;
     position: absolute;
     top: 50%;
@@ -40,9 +40,12 @@ body {
     border: none;
     outline: none;
     padding: 10px 15px;
-    background-color: black;
     cursor: pointer;
     font-size: 18px;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    padding-right: 40px;
+    background-image: url(../images/pyramid.png);
 }
 
 /* Style the active class, and buttons on mouse-over */
@@ -65,23 +68,36 @@ body {
 }
 #home {
   text-align: right;
-  background-image: url(../images/pyramid.png);
+  /* background-image: url(../images/pyramid.png); */
   margin: auto;
+  background-color: black;
+
 }
 .home {
-  margin-top: 100px;
+  margin-top: 120px;
   margin-right: 10px;
   text-align: center;
+
 }
 .homePara {
-  font-size: 100px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 40px;
+  color: white;
 }
 .homePara::first-letter {
     color: pink;
 }
 
+span::first-letter {
+    color: pink;
+}
+
 .homeTitle {
-  font-size: 150px;
+  font-size: 80px;
+  font-family: 'Rajdhani', sans-serif;
+  margin-top: 140px;
+  color: white;
+
 }
 
 .homeTitle::first-letter {
@@ -106,17 +122,10 @@ body {
   padding-bottom: 30px;
 }
 
-.box {
-  background-image: url("http://fillmurray.com/200/300");
-  color: white;
-}
-
 .showRole {
   font-size: 20px;
   font-weight: bold;
-
 }
-
 .prev {
   padding-bottom: 5px;
   text-align: center;
@@ -148,7 +157,21 @@ li {
   text-align: right;
 }
 
+.aboutTitle::first-letter {
+  color: pink;
+}
+.prev::first-letter {
+  color: pink;
+}
+
+.toolTitle::first-letter {
+  color: pink !important;
+}
+.titlePro::first-letter {
+  color: pink !important;
+}
 #projects {
+  font-family: 'Rajdhani', sans-serif;
   background-image: url(../images/pyramid.png);
   width: 100%;
   display: flex;
@@ -166,29 +189,33 @@ li {
   margin-top: 10px;
 }
 #skills {
+  font-family: 'Rajdhani', sans-serif;
   background-color: black;
   margin: auto;
 }
 
 .toolkit {
+  font-family: 'Rajdhani', sans-serif;
   text-align: center;
   flex-direction: column;
   justify-content: center;
   display: flex;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 #about {
-  background: black;
+  /* background: black; */
   padding: 30px;
   border: 1px solid white;
-  color: white !important;
+  color: black !important;
   justify-content: center;
-
+  background-image: url(../images/pyramid.png);
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .about {
   justify-content: center;
   text-align: center;
+  color: black;
 
 }
 .about img {
@@ -228,6 +255,8 @@ li {
   padding: 10px;
 }
 #contact {
+  font-family: 'Rajdhani', sans-serif;
+
   display: flex;
   flex-direction: column;
   font-size: 20px;
@@ -236,30 +265,50 @@ li {
   padding: 10px;
   font-weight: bold;
 }
+
+.contact::first-letter {
+  color: #202020;
+}
 .aboutPara {
-  color: white;
+  color: black;
 }
 .aboutTitle {
-  color: white;
+  color: black;
   padding-top: 27px;
+  font-family: 'Rajdhani', sans-serif;
 }
 .navbar-brand {
-  background-color: #202020;
+  color: black;
+  font-family: 'Rajdhani', sans-serif;
+  background-image: url(../images/pyramid.png);
 }
 .navbar-item {
-  color: white;
+  color: black;
   font-size: 20px;
-}
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
 
+}
+a {
+  color: black;
+}
 h1 {
   font-family: 'Nunito', sans-serif;
   font-weight: 100;
 }
 nav.navbar {
-  background-color: #202020;
+  background-image: url(../images/pyramid.png);
   position: fixed;
     top: 0;
     width: 100%;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    box-shadow: 0 2px 0 0 pink;
+}
+svg {
+  color: pink;
 }
 i {
   font-size: 50px;
@@ -295,8 +344,7 @@ i {
 
 }
 .subtitle {
-  padding: 10px;
-  padding-top: 15px;
+  margin: 50px;
   font-weight: bold;
 }
 .hero-body {
@@ -309,7 +357,6 @@ i {
 @media only screen and (max-width: 768px) {
   #home {
     text-align: center;
-
   }
   .homeTitle {
     font-size: 80px;
@@ -319,10 +366,21 @@ i {
   }
   #about {
     text-align: center;
-
+    padding-top: 60px;
   }
   .dev {
     display: none;
-
   }
+  .navbar-item {
+    padding-right: 0;
+  }
+  .subtitle {
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+  }
+  .toolkit {
+    margin-top: 60px;
+  }
+
 }

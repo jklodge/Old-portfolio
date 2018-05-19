@@ -95,10 +95,9 @@ body {
   transform: translate(0, -50%);
 }
 
-.level-item {
+.-item {
   display: flex;
   flex-direction: column;
-  background-color: dodgerBlue;
   height: 150px;
   padding: 10px;
   display: flex;
@@ -112,7 +111,10 @@ body {
 }
 
 .showRole {
-  padding-left: 25px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+
 }
 
 .prev {
@@ -297,12 +299,36 @@ i {
 
 .roles {
   display: flex;
-  flex-direction: row !important;
+  flex-direction: column !important;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.subtitle {
+  padding: 10px;
+  padding-top: 10px;
+  font-weight: bold;
 }
 .hero-body {
   justify-content: center;
-  height: 100%;
+  height: 70vh;
   margin: auto;
   display: inline !important;
   text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  #home {
+    text-align: center;
+
+  }
+  .homeTitle {
+    font-size: 80px;
+  }
+  .homePara {
+    font-size: 60px;
+  }
+  #about {
+    text-align: center;
+
+  }
 }

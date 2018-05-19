@@ -17,8 +17,7 @@ body {
   margin: auto;
   border-radius: 45px;
   padding: 15px;
-  margin-top: 30%;
-text-align: center;
+  text-align: center;
   z-index: 5;
 }
 
@@ -65,9 +64,23 @@ text-align: center;
   margin: auto;
 }
 .home {
-    display: flex;
-    margin: auto;
-    transform: translate(0%, 250%)
+    display: inline;
+    margin-top: 150px;
+}
+
+.homePara {
+  font-size: 100px;
+}
+.homePara::first-letter {
+    color: pink;
+}
+
+.homeTitle {
+  font-size: 150px;
+}
+
+.homeTitle::first-letter {
+    color: pink;
 }
 
 .fa-chevron-circle-down {
@@ -265,7 +278,7 @@ i {
   font-size: 50px;
 }
 .wrap .dev {
-  visibility: ;
+  visibility: hidden;
   font-size: 30px;
   display: inline;
 

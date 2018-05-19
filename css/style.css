@@ -61,7 +61,6 @@ body {
   text-align: right;
   background-color: lightslategrey;
   margin: auto;
-  height: 100vh !important;
 }
 .home {
     display: inline;
@@ -148,7 +147,6 @@ li {
 
 #projects {
   background-image: url(../images/pyramid.png);
-  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -165,11 +163,9 @@ li {
 }
 #skills {
   background-color: black;
+  margin: auto;
 }
-/*
-#section04 {
-  background-image: url(../images/pyramid.png);
-} */
+
 #about {
   background: black;
   padding: 30px;
@@ -183,64 +179,37 @@ li {
   justify-content: center;
 
 }
-.is-parent {
-  display: block !important;
+.projectBox {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
 }
-.crimeno {
-  background-image: url(../images/crimeno.png);
-  background-position: center;
-  background-size: cover;
-}
-.yearbook {
-  background-image: url(../images/gays.png);
-  background-position: center;
-  background-size: cover;
-  animation-play-state: paused;
-
-}
-
 .yearbook:hover {
-transform: scale(1.5);
-animation-play-state: running;
-
+  color: black;
+  font-weight: bold;
+  padding: 10px;
 }
-.poober {
-  background-image: url(../images/poober.png);
-  background-position: center;
-  background-size: cover;
-}
-
 .poober:hover {
-  transform: scale(1.5);
-}
-.isthisin {
-  background-image: url(../images/isthisin.png);
-  background-position: center;
-  background-size: cover;
-}
-.isthisin:hover {
-  transform: scale(1.5);
-}
-.crimeno {
-  background-image: url(../images/crimeno.png);
-  background-position: center;
-  background-size: cover;
-}
-.crimeno:hover {
-  transform: scale(1.5);
-  background-color: blue;
   color: black;
   font-weight: bold;
   padding: 10px;
 }
 
-.spinner {
-  background-image: url(../images/spinner.png);
-  background-position: center;
-  background-size: cover;
+.isthisin:hover {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
 }
+.crimeno:hover {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
 .spinner:hover {
-  transform: scale(1.5);
+  color: black;
+  font-weight: bold;
+  padding: 10px;
 }
 #contact {
   display: flex;
@@ -294,10 +263,12 @@ i {
 
 .contacts {
   display: flex;
-  flex-direction: column !important;
   text-align: center;
 }
-
+#contact {
+  background-color: pink;
+  padding: 10px;
+}
 .subtitle {
   padding: 10px;
   padding-top: 10px;

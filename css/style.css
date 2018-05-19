@@ -166,6 +166,13 @@ li {
   margin: auto;
 }
 
+.toolkit {
+  text-align: center;
+  margin: 50px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
 #about {
   background: black;
   padding: 30px;
@@ -257,9 +264,9 @@ i {
 .column-is-one-quarter {
   margin: 50px
 }
-.bottom {
+/* .bottom {
   float: left;
-}
+} */
 
 .contacts {
   display: flex;

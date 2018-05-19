@@ -38,7 +38,7 @@ function init() {
 
 
   $('#contact').click(function(){
-    $('a').toggle();
+    $('.hidden-first').toggle();
   });
 
 

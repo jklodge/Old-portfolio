@@ -1,8 +1,9 @@
 body {
-  /* background-image: url(../images/pyramid.png); */
+
   background-size: contain;
   font-family: 'Nunito', sans-serif !important;
   font-weight: 100;
+  height: 100%;
 }
 
 .experience {
@@ -49,9 +50,22 @@ body {
     background-color: #666;
     color: white;
 } */
+
+.parallax {
+    /* The image used */
+    background-image: url(../images/pyramid.png);
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #home {
   text-align: right;
-  background-color: lightslategrey;
+  background-image: url(../images/pyramid.png);
   margin: auto;
 }
 .home {
@@ -254,12 +268,11 @@ i {
 .wrap .dev {
   visibility: hidden;
   font-size: 30px;
-  display: inline;
-
 }
 .wrap:hover .dev {
   visibility: visible;
   font-size: 30px;
+  padding-bottom: 10px;
 
 }
 .column .is-one-quarter {
@@ -307,6 +320,10 @@ i {
   }
   #about {
     text-align: center;
+
+  }
+  .dev {
+    display: none;
 
   }
 }

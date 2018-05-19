@@ -26,5 +26,34 @@ function init() {
   }
 
 
+  // $('.contact').click(function(){
+  //   console.log('hello');
+  //   var para = document.querySelector('.hidden-first');
+  //   if (para.style.display === 'block') {
+  //     para.style.display = 'none';
+  //   } else {
+  //     para.style.display = 'block';
+  //   }
+  // });
+
+
+  $('#contact').click(function(){
+    $('a').toggle();
+  });
+
+
+  // document.querySelector('.contact').addEventListener('click', seeMore);
+  //
+  // function seeMore() {
+  //   console.log('hello');
+  //   var para = document.querySelector('.hidden-first');
+  //   if (para.style.display === 'block') {
+  //     para.style.display = 'none';
+  //   } else {
+  //     para.style.display = 'block';
+  //   }
+  //
+  // }
+
 }
 $(init);

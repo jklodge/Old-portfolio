@@ -1,8 +1,17 @@
 body {
   background-size: contain;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Rajdhani', sans-serif !important;
   font-weight: 100;
   height: 100%;
+}
+
+.before {
+  color: #E0E0E0;
+}
+
+.after {
+  text-decoration: line-through;
+  color: #E0E0E0;
 }
 
 .experience {
@@ -183,9 +192,14 @@ li {
   margin-right: 10px;
   text-align: center;
 }
+.toolTitle {
+  font-family: 'Rajdhani', sans-serif;
 
+}
 .titlePro {
   padding-top: 50px;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
   margin-top: 10px;
 }
 #skills {
@@ -195,7 +209,6 @@ li {
 }
 
 .toolkit {
-  font-family: 'Rajdhani', sans-serif;
   text-align: center;
   flex-direction: column;
   justify-content: center;
@@ -315,12 +328,13 @@ i {
 .wrap .dev {
   visibility: hidden;
   font-size: 30px;
+
 }
 .wrap:hover .dev {
   visibility: visible;
   font-size: 30px;
   padding-bottom: 10px;
-
+  font-family: 'Rajdhani', sans-serif;
 }
 .column .is-one-quarter {
   margin: 50px
@@ -352,6 +366,12 @@ i {
   margin: auto;
   display: inline !important;
   text-align: center;
+}
+.strike {
+    text-decoration: line-through;
+}
+.title {
+  font-family: 'Rajdhani', sans-serif;
 }
 @media only screen and (max-width: 768px) {
   #home {

@@ -42,18 +42,9 @@ function init() {
   });
 
 
-  // document.querySelector('.contact').addEventListener('click', seeMore);
-  //
-  // function seeMore() {
-  //   console.log('hello');
-  //   var para = document.querySelector('.hidden-first');
-  //   if (para.style.display === 'block') {
-  //     para.style.display = 'none';
-  //   } else {
-  //     para.style.display = 'block';
-  //   }
-  //
-  // }
+  $('.homeTab').click(typeWriter);
+
+
 
   var i = 0;
   var txt = 'ex Product Manager'; /* The text */
@@ -65,6 +56,8 @@ function init() {
       i++;
       setTimeout(typeWriter, speed);
     }
+    setTimeout(strikeThrough, 3500);
+
   }
 
   setTimeout(typeWriter, 1500);
@@ -72,7 +65,6 @@ function init() {
     var before = document.querySelector('.before');
     before.classList.toggle('after');
   }
-  setTimeout(strikeThrough, 3500);
 
 }
 $(init);

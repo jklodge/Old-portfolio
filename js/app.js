@@ -1,13 +1,4 @@
 function init() {
-  // const $scroll = $('.scroll');
-  // const $expander = $('.expander');
-  // const $TableData = $('#TableData');
-
-  // $scroll.on('click',(e) => {
-  //   e.preventDefault();
-  //   $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 200, 'linear');
-  // });
-
   $('.toggle').click(function(){
     $('.showRole').slideToggle('slow');
   });
@@ -25,26 +16,12 @@ function init() {
     });
   }
 
-
-  // $('.contact').click(function(){
-  //   console.log('hello');
-  //   var para = document.querySelector('.hidden-first');
-  //   if (para.style.display === 'block') {
-  //     para.style.display = 'none';
-  //   } else {
-  //     para.style.display = 'block';
-  //   }
-  // });
-
-
   $('#contact').click(function(){
     $('.hidden-first').toggle();
   });
 
 
   $('.homeTab').click(typeWriter);
-
-
 
   var i = 0;
   var txt = 'ex Product Manager'; /* The text */

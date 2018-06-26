@@ -19,6 +19,7 @@ body {
     flex-direction: column !important;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 54px;
 }
 
 .left-half {
@@ -92,11 +93,11 @@ body {
   color: white;
 }
 .homePara::first-letter {
-    color: pink;
+    color: lightskyblue;
 }
 
 span::first-letter {
-    color: pink;
+    color: lightskyblue;
 }
 
 .homeTitle {
@@ -108,7 +109,7 @@ span::first-letter {
 }
 
 .homeTitle::first-letter {
-    color: pink;
+    color: lightskyblue;
 }
 
 .fa-chevron-circle-down {
@@ -167,23 +168,22 @@ li {
 }
 
 .aboutTitle::first-letter {
-  color: pink;
+  color: lightskyblue;
 }
 .prev::first-letter {
-  color: pink;
+  color: lightskyblue;
 }
 
 .toolTitle::first-letter {
-  color: pink !important;
+  color: lightskyblue !important;
 }
 .titlePro::first-letter {
-  color: pink !important;
+  color: lightskyblue !important;
 }
 #projects {
   font-family: 'Rajdhani', sans-serif;
   background-image: url(../images/pyramid.png);
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -191,6 +191,13 @@ li {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container.projects {
+  max-width: inherit;
+  width: inherit;
 }
 .toolTitle {
   font-family: 'Rajdhani', sans-serif;
@@ -236,9 +243,18 @@ li {
 
 }
 .projectBox {
-  display: flex;
-  flex-direction: column;
-  margin: 40px;
+  /* flex: 0 0 40%;
+  margin: 20px;
+  height: auto; */
+  flex: 1 0 49%;
+display: flex;
+flex-direction: row;
+margin: 47px;
+}
+
+.projectText {
+  margin-left: 20px;
+flex: 1 0 49%;
 }
 .yearbook:hover {
   color: black;
@@ -317,10 +333,10 @@ nav.navbar {
     width: 100%;
     color: black;
     font-family: 'Rajdhani', sans-serif;
-    box-shadow: 0 2px 0 0 pink;
+    box-shadow: 0 2px 0 0 lightskyblue;
 }
 svg {
-  color: pink;
+  color: lightskyblue;
 }
 i {
   font-size: 50px;
@@ -347,7 +363,7 @@ i {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: pink;
+  background-color: lightskyblue;
 }
 #contact {
   padding: 10px;
@@ -373,7 +389,18 @@ i {
 .title {
   font-family: 'Rajdhani', sans-serif;
 }
+
+img {
+  filter: blur(1px) drop-shadow(8px 8px 10px gray);
+
+}
 @media only screen and (max-width: 768px) {
+
+  .projectBox {
+    flex-direction: column;
+    margin: 20px;
+    height: auto;
+  }
   #home {
     text-align: center;
     margin-top: 0;

@@ -10,7 +10,7 @@ body {
 }
 
 .after {
-  text-decoration: line-through;
+  text-decoration: lightskyblue line-through;
   color: #E0E0E0;
 }
 

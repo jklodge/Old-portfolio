@@ -11,6 +11,7 @@ body {
 
 .after {
   text-decoration: lightskyblue line-through;
+  text-decoration: line-through;
   color: #E0E0E0;
 }
 nav.navbar {

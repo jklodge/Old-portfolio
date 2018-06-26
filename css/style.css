@@ -19,7 +19,7 @@ body {
     flex-direction: column !important;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 54px;
+    margin-bottom: 100px;
 }
 
 .left-half {
@@ -119,6 +119,8 @@ span::first-letter {
 .fa-chevron-circle-up {
   margin-bottom: 20px;
 }
+
+
 
 .-item {
   display: flex;
@@ -230,6 +232,10 @@ li {
   justify-content: center;
   background-image: url(../images/pyramid.png);
   font-family: 'Rajdhani', sans-serif;
+}
+
+#home a{
+  margin-bottom: 65px !important;
 }
 
 .about {

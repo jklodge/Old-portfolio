@@ -109,7 +109,7 @@ span::first-letter {
 }
 
 .homeTitle {
-  font-size: 80px;
+  font-size: 75px;
   font-family: 'Rajdhani', sans-serif;
   margin-top: 140px;
   color: white;
@@ -424,10 +424,11 @@ img {
     margin-top: 0;
   }
   .homeTitle {
-    font-size: 80px;
+    font-size: 59px;
+    margin-top: 63%;
   }
   .homePara {
-    font-size: 60px;
+    font-size: 59px;
   }
   #about {
     text-align: center;

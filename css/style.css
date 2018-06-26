@@ -13,6 +13,13 @@ body {
   text-decoration: lightskyblue line-through;
   color: #E0E0E0;
 }
+nav.navbar {
+  justify-content: center;
+}
+
+.navbar-brand {
+  justify-content: center;
+}
 
 .experience {
     display: flex;

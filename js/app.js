@@ -37,7 +37,7 @@ function init() {
 
   }
 
-  setTimeout(typeWriter, 1500);
+  setTimeout(typeWriter, 1700);
   function strikeThrough(){
     var before = document.querySelector('.before');
     before.classList.toggle('after');

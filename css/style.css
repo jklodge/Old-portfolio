@@ -368,6 +368,7 @@ i {
 }
 img {
   filter: blur(1px) drop-shadow(8px 8px 10px gray);
+  border: solid 4px;
 }
 @media only screen and (max-width: 768px) {
   .homeText {
@@ -404,6 +405,7 @@ img {
   }
   .navbar-item {
     padding-right: 0;
+    font-size: 22px;
   }
   .subtitle {
     padding: 10px;

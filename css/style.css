@@ -348,12 +348,7 @@ i {
     width: 100%;
     display: none;
 }
-.contacts {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: lightskyblue;
-}
+
 .subtitle {
   margin: 50px;
   font-weight: bold;

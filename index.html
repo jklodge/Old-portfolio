@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
   <link rel="stylesheet"
@@ -29,17 +28,18 @@
     </a> -->
   </div>
 </nav>
-<section id="home" class="hero is-fullheight scroll">
-  <div class="home">
-    <h1 class="title homeTitle">Jess Lodge</h1>
-    <h1 class="title homePara">Full-Stack Developer</h1>
+<section class="scroll bg1">
+  <div class="parallax">
+    <div class="homeText">
+    <h1 class="title">Jess Lodge</h1>
+    <h1 class="title homePara">Full-Stack<br>Developer</h1>
     <h5 class="title before" id="text"></h5>
+    <a class="has-text-centered trans" href="#about"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
   </div>
-
-  <a class="has-text-centered trans" href="#about"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
-
+  </div>
 </section>
-<section id="about" class="hero is-fullheight scroll">
+</div>
+<section class="scroll section static" id="about">
   <div class="container about">
     <!-- <img src="images/jess.jpg"/> -->
     <h1 class="title aboutTitle">About Me</h1>
@@ -53,11 +53,8 @@
     </div>
   </div>
   <a class="has-text-centered trans" href="#skills"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
-
 </section>
-<section id="skills" class="hero is-success is-fullheight scroll">
-  <div class="container toolkit">
-
+<section class="is-success scroll section bg2" id="skills">
     <h1 class="title toolTitle">My Toolkit</h1>
     <div class="columns">
       <div class="column is-one-quarter wrap">
@@ -67,7 +64,6 @@
         <i class="devicon-javascript-plain"><p class="dev">JavaScript</p></i>
         <i class="devicon-jquery-plain"><p class="dev">jQuery</p></i>
       </div>
-
       <div class="column is-one-quarter wrap">
         <h2 class="subtitle">F R O N T - E N D</h2>
         <i class="devicon-react-original-wordmark"><p  class="dev">React</p></i>
@@ -75,7 +71,6 @@
         <i class="devicon-bootstrap-plain"><p class="dev">Bootstrap</p></i>
         <i class="devicon-sass-original"><p class="dev">Sass</p></i>
       </div>
-
       <div class="column is-one-quarter wrap">
         <h2 class="subtitle">B A C K - E N D</h2>
         <i class="devicon-express-original"><p class="dev">Express</p></i>
@@ -92,12 +87,9 @@
         <i class="devicon-heroku-original"><p class="dev">Heroku</p></i>
       </div>
     </div>
-  </div>
-
   <a class="has-text-centered trans" href="#projects"><i class="fa fa-chevron-circle-down fa-3x"></i></a>
 </section>
-
-  <section id="projects" class="hero is-warning is-fullheight scroll">
+  <section class="hero is-warning is-fullheight scroll" id="projects">
     <h1 class="title titlePro">PROJECT LIST</h1>
     <div class="container projects">
       <div class="projectBox">
@@ -134,7 +126,7 @@
                 <img src="images/poober.png"/>
                 <div class="poober projectText">
                   <h1 class="title">Poober</h1>
-                  <p>In an agile  group  project, I created a RESTful MEAN stack app. Poober helps you find your nearest toilet in a fellow user’s humble abode. With a group of three, we created an app for users and owners. Owners were able to upload their toilets to the database. Users are able to then search for toilets in their area and request to use. I owned the Facebook Oauth journey, implementing the filestack API, creating the user profile and implementing filtering.</p>
+                  <p>In an agile  group  project, I created a RESTful MEAN stack app. Poober helps you find your nearest toilet in a fellow user's humble abode. With a group of three, we created an app for users and owners. Owners were able to upload their toilets to the database. Users are able to then search for toilets in their area and request to use. I owned the Facebook Oauth journey, implementing the filestack API, creating the user profile and implementing filtering.</p>
                   <br><p style="color:lightskyblue;"><strong>Go to website</p></a>
                 </div>
               </div>
@@ -142,23 +134,25 @@
                 <a href="https://is-this-in.herokuapp.com/" target="_blank">
                   <img src="images/isthisin.png"/>
                   <div class="isthisin projectText">
-                    <h1 class="title">Is this in?</h1><p>Inspired by friends and myself always asking whether something looks “OK”. I created a voting system fashion Express app using EJS with a Mongo database. Users were able to create and edit their profile, follow and unfollow users. Upload a photo using the Filestack API and comment on photos.</p>
+                    <h1 class="title">Is this in?</h1><p>Inspired by friends and myself always asking whether something looks "OK". I created a voting system fashion Express app using EJS with a Mongo database. Users were able to create and edit their profile, follow and unfollow users. Upload a photo using the Filestack API and comment on photos.</p>
                     <br><p style="color:lightskyblue;"><strong>Go to website</p></a>
                   </div>
                 </div>
-
               </div>
-
-              <a class="has-text-centered trans" href="#home"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
             </section>
-            <div class="contacts level-item is-info">
-              <div id="contact">Contact</div>
+              <div class="parallax">
+            <!-- <div class="contacts level-item is-info"> -->
+              <div class="parallaxContact">
+                <div id="contact">Contact</div>
               <a target="_blank" href="https://github.com/jklodge"><p class="contact title is-6">GitHub</p></a>
               <a target="_blank" class="hidden-first" href="https://github.com/jklodge">https://github.com/jklodge</a>
               <a target="_blank" href="https://www.linkedin.com/in/jessicalodge/"><p class="contact title is-6">LinkedIn</p></a>
-              <a target="_blank" class="hidden-first" href="https://www.linkedin.com/in/jessicalodge/">https://www.linkedin.com/in/jessicalodge/</a>
+              <a target="_blank" class="hidden-first" href="https://www.linkedin.com/in/jessicalodge/">linkedin.com/in/jessicalodge</a>
               <a target="_blank" href="mailto:jessicaklodge@gmail.com?subject=Jess Lodge"><p class="contact title is-6">Email</p></a>
               <a target="_blank" class="hidden-first" href="mailto:jessicaklodge@gmail.com?subject=Jess Lodge">jessicaklodge@gmail.com</a>
+            <!-- </div> -->
+            <a class="has-text-centered trans" href="#home"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
             </div>
+</div>
         </body>
         </html>

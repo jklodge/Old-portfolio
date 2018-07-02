@@ -4,24 +4,39 @@ body {
   font-weight: 100;
   height: 100%;
 }
-
-.before {
-  color: #E0E0E0;
+.homeText {
+  margin: 150px auto;
+  text-align: center;
 }
+.parallax {
+    /* The image used */
 
-.after {
-  text-decoration: lightskyblue line-through;
-  text-decoration: line-through;
-  color: #E0E0E0;
+    /* background-image: url('https://i.imgur.com/I8Nu1Dk.jpg'); */
+    /* background-image: url('https://i.imgur.com/Orsp8Mz.jpg'); */
+background-image: url('https://i.imgur.com/Do74Jui.jpg');
+  /* background-image: url('https://i.imgur.com/iSMeolQ.jpg'); */
+    /* Full height */
+    height: 100vh;
+    display: flex;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.parallaxContact {
+      margin: 129px auto;
+}
+h5#text {
+  font-size: 1.5rem;
 }
 nav.navbar {
   justify-content: center;
 }
-
 .navbar-brand {
   justify-content: center;
 }
-
 .experience {
     display: flex;
     flex-direction: column !important;
@@ -29,7 +44,6 @@ nav.navbar {
     margin-top: 40px;
     margin-bottom: 100px;
 }
-
 .left-half {
    background-color: black;
    position: absolute;
@@ -44,14 +58,12 @@ nav.navbar {
    height: 100%;
    width: 50%;
 }
-
 .right-box {
     margin-top: -100px;
     position: absolute;
     top: 50%;
     width: 75%;
 }
-
 .navbar-item {
     border: none;
     outline: none;
@@ -61,75 +73,48 @@ nav.navbar {
     color: black;
     font-family: 'Rajdhani', sans-serif;
     padding-right: 40px;
-    background-image: url(../images/pyramid.png);
 }
-
 /* Style the active class, and buttons on mouse-over */
 /* .active, .navbar-item:hover {
     background-color: #666;
     color: white;
 } */
-
-.parallax {
-    /* The image used */
-    background-image: url(../images/pyramid.png);
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 #home {
   text-align: right;
   /* background-image: url(../images/pyramid.png); */
   margin: auto;
   background-color: black;
-
 }
 .home {
   margin-top: 120px;
   margin-right: 10px;
   text-align: center;
-
 }
 .homePara {
   font-family: 'Rajdhani', sans-serif;
   font-size: 40px;
-  color: white;
 }
 .homePara::first-letter {
     color: lightskyblue;
 }
-
 span::first-letter {
     color: lightskyblue;
 }
-
 .homeTitle {
   font-size: 75px;
   font-family: 'Rajdhani', sans-serif;
   margin-top: 140px;
   color: white;
-
 }
-
 .homeTitle::first-letter {
     color: lightskyblue;
 }
-
 .fa-chevron-circle-down {
   margin-bottom: 20px;
 }
-
 .fa-chevron-circle-up {
-  margin-bottom: 20px;
+  margin-bottom: -62px;
 }
-
-
-
 .-item {
   display: flex;
   flex-direction: column;
@@ -139,7 +124,6 @@ span::first-letter {
   z-index: 1;
   padding-bottom: 30px;
 }
-
 .showRole {
   font-size: 20px;
   font-weight: bold;
@@ -148,7 +132,6 @@ span::first-letter {
   padding-bottom: 5px;
   text-align: center;
 }
-
 .toggle {
   cursor: pointer;
   padding: 10px;
@@ -156,18 +139,14 @@ span::first-letter {
 .prev, .toggle {
   color: black;
 }
-
-
 ul {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
 }
-
 li {
     display: inline;
     padding-right: 25px;
-
 }
 .first-page {
     font-size: 50px;
@@ -176,26 +155,27 @@ li {
 .latest {
   text-align: right;
 }
-
 .aboutTitle::first-letter {
   color: lightskyblue;
 }
 .prev::first-letter {
   color: lightskyblue;
 }
-
 .toolTitle::first-letter {
   color: lightskyblue !important;
 }
 .titlePro::first-letter {
   color: lightskyblue !important;
 }
+h2.subtitle {
+  color: white;
+}
 #projects {
   font-family: 'Rajdhani', sans-serif;
-  background-image: url(../images/pyramid.png);
   width: 100%;
   align-items: center;
   justify-content: center;
+  background-image: url(../images/pyramid.png) !important;
 }
 .projects {
   margin-left: 10px;
@@ -211,7 +191,7 @@ li {
 }
 .toolTitle {
   font-family: 'Rajdhani', sans-serif;
-
+  color: white;
 }
 .titlePro {
   padding-top: 50px;
@@ -223,8 +203,9 @@ li {
   font-family: 'Rajdhani', sans-serif;
   background-color: black;
   margin: auto;
+  text-align: center;
+  color: white;
 }
-
 .toolkit {
   text-align: center;
   flex-direction: column;
@@ -238,23 +219,20 @@ li {
   border: 1px solid white;
   color: black !important;
   justify-content: center;
-  background-image: url(../images/pyramid.png);
   font-family: 'Rajdhani', sans-serif;
+  background-image: url(../images/pyramid.png) !important;
+  text-align: center;
 }
-
 #home a{
   margin-bottom: 65px !important;
 }
-
 .about {
   justify-content: center;
   text-align: center;
   color: black;
-
 }
 .about img {
   border-radius: 500px;
-
 }
 .projectBox {
   /* flex: 0 0 40%;
@@ -265,7 +243,6 @@ display: flex;
 flex-direction: row;
 margin: 47px;
 }
-
 .projectText {
   margin-left: 20px;
 flex: 1 0 49%;
@@ -280,7 +257,6 @@ flex: 1 0 49%;
   font-weight: bold;
   padding: 10px;
 }
-
 .isthisin:hover {
   color: black;
   font-weight: bold;
@@ -291,7 +267,6 @@ flex: 1 0 49%;
   font-weight: bold;
   padding: 10px;
 }
-
 .spinner:hover {
   color: black;
   font-weight: bold;
@@ -304,13 +279,15 @@ flex: 1 0 49%;
   font-size: 20px;
   text-decoration: underline;
   font-weight: bold;
+  color: black;
+    padding: 10px;
+    cursor: pointer;
 }
 .contact {
   padding: 10px;
   font-weight: bold;
-  color: white;
+  font-size: 1.6rem !important;
 }
-
 .aboutPara {
   color: black;
 }
@@ -331,7 +308,6 @@ flex: 1 0 49%;
   font-weight: bold;
   text-align: center;
   justify-content: center;
-
 }
 a {
   color: black;
@@ -358,7 +334,6 @@ i {
 .wrap .dev {
   visibility: hidden;
   font-size: 30px;
-
 }
 .wrap:hover .dev {
   visibility: visible;
@@ -379,13 +354,6 @@ i {
   text-align: center;
   background-color: lightskyblue;
 }
-#contact {
-  padding: 10px;
-  text-align: center;
-  font-weight: bold;
-  cursor: pointer;
-  color: white;
-}
 .subtitle {
   margin: 50px;
   font-weight: bold;
@@ -403,13 +371,13 @@ i {
 .title {
   font-family: 'Rajdhani', sans-serif;
 }
-
 img {
   filter: blur(1px) drop-shadow(8px 8px 10px gray);
-
 }
 @media only screen and (max-width: 768px) {
-
+  .homeText {
+        margin: 156px auto;
+  }
   .projectBox {
     flex-direction: column;
     margin: 20px;
@@ -418,7 +386,6 @@ img {
   #home {
     text-align: center;
     margin-top: 0;
-
   }
   .home {
     margin-top: 0;
@@ -428,7 +395,10 @@ img {
     margin-top: 55%;
   }
   .homePara {
-    font-size: 58px;
+    font-size: 1.5rem;
+  }
+  #text {
+    font-size: 1.4rem;
   }
   #about {
     text-align: center;
@@ -448,5 +418,10 @@ img {
   .toolkit {
     margin-top: 60px;
   }
-
+.parallaxContact {
+      margin: 109px auto;
+}
+svg.svg-inline--fa.fa-chevron-circle-up.fa-w-16.fa-3x {
+      margin-top: 15px;
+}
 }

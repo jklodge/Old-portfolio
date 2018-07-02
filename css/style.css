@@ -95,10 +95,10 @@ nav.navbar {
   font-size: 40px;
 }
 .homePara::first-letter {
-    color: #8fbb3f;
+    color: lightslategray;
 }
 span::first-letter {
-    color: #8fbb3f;
+    color: lightslategray;
 }
 .homeTitle {
   font-size: 75px;
@@ -107,7 +107,7 @@ span::first-letter {
   color: white;
 }
 .homeTitle::first-letter {
-    color: #8fbb3f;
+    color: lightslategray;
 }
 .fa-chevron-circle-down {
   margin-bottom: 20px;
@@ -156,16 +156,16 @@ li {
   text-align: right;
 }
 .aboutTitle::first-letter {
-  color: #8fbb3f;
+  color: lightslategray;
 }
 .prev::first-letter {
-  color: #8fbb3f;
+  color: lightslategray;
 }
 .toolTitle::first-letter {
-  color: #8fbb3f !important;
+  color: lightslategray !important;
 }
 .titlePro::first-letter {
-  color: #8fbb3f !important;
+  color: lightslategray !important;
 }
 h2.subtitle {
   color: white;
@@ -329,10 +329,10 @@ nav.navbar {
     width: 100%;
     color: black;
     font-family: 'Rajdhani', sans-serif;
-    box-shadow: 0 2px 0 0 #8fbb3f;
+    box-shadow: 0 2px 0 0 lightslategray;
 }
 svg {
-  color: #8fbb3f;
+  color: lightslategray;
 }
 i {
   font-size: 50px;

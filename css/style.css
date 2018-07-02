@@ -418,9 +418,12 @@ img {
   .toolkit {
     margin-top: 60px;
   }
-.parallaxContact {
-      margin: 109px auto;
-}
+  .parallax {
+    background-attachment: scroll;
+  }
+  .parallaxContact {
+    margin: 109px auto;
+  }
 svg.svg-inline--fa.fa-chevron-circle-up.fa-w-16.fa-3x {
       margin-top: 15px;
 }

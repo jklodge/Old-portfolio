@@ -430,6 +430,7 @@ img {
   }
   .parallax {
     background-attachment: scroll;
+    background-image: url('https://i.imgur.com/Dc4B3Y0.jpg');
   }
   .parallaxContact {
     margin: 109px auto;

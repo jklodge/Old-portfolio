@@ -202,7 +202,7 @@ h2.subtitle {
   padding-top: 50px;
   font-family: 'Rajdhani', sans-serif;
   color: black;
-  margin-top: 10px;
+  margin: 0 !important;
 }
 #skills {
   font-family: 'Rajdhani', sans-serif;
@@ -360,7 +360,44 @@ i {
     width: 100%;
     display: none;
 }
+.projSelector {
+  text-align: center;
+  font-weight: bold;
+      font-size: 20px;
+}
+.selected {
+  color: red;
+  text-decoration: underline;
+      padding-left: 25px;
+}
+.one {
+    display: block;
+}
+.two {
+    display: none;
+}
+.three {
+    display: none;
+}
+.four {
+    display: none;
+}
+.five {
+    display: none;
+}
+.projectText {
+  text-align: left;
+}
+.container .projectBox {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.container.shown .projectBox {
 
+}
 .subtitle {
   margin: 50px;
   font-weight: bold;
@@ -382,6 +419,8 @@ i {
 img {
   filter: blur(1px) drop-shadow(8px 8px 10px gray);
   border: solid 4px;
+  border-radius: 10px;
+
 }
 @media only screen and (max-width: 768px) {
   .homeText {

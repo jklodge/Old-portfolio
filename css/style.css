@@ -185,6 +185,8 @@ h2.subtitle {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  /* margin-top: -5%; */
+
 }
 .container.projects {
   max-width: inherit;
@@ -247,6 +249,7 @@ h2.subtitle {
 display: flex;
 flex-direction: row;
 margin: 47px;
+    margin-top: 0%;
 }
 .projectText {
   margin-left: 20px;
@@ -431,6 +434,7 @@ img {
     flex-direction: column;
     margin: 20px;
     height: auto;
+
   }
   #home {
     text-align: center;

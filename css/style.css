@@ -364,11 +364,12 @@ i {
   text-align: center;
   font-weight: bold;
       font-size: 20px;
+      padding-left: 25px;
 }
 .selected {
-  color: red;
+  color: lightslategray;
   text-decoration: underline;
-      padding-left: 25px;
+
 }
 .one {
     display: block;

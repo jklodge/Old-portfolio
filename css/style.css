@@ -251,6 +251,9 @@ flex-direction: row;
 margin: 47px;
     margin-top: 0%;
 }
+div.projectBox.one {
+  margin: 0;
+}
 .projectText {
   margin-left: 20px;
 flex: 1 0 49%;
@@ -436,6 +439,8 @@ img {
     height: auto;
 
   }
+
+
   #home {
     text-align: center;
     margin-top: 0;
